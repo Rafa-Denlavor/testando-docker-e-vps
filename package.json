@@ -1,0 +1,22 @@
+{
+  "name": "docker-and-vps",
+  "version": "1.0.0",
+  "description": "testando o Docker e VPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
